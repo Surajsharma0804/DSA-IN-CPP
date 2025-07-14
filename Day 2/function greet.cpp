@@ -4,12 +4,12 @@ using namespace std;
 string greet() {
     string name;
     cout << "Enter name: ";
-    cin >> name;  // Corrected input syntax
+    cin >> name;
     cout << "Hi gud morning " << name << endl;
-    return name; // You declared the return type as string, so return name
+    return name; 
 }
 
 int main() {
-    greet();  // You can store the returned name if needed
+    greet(); 
     return 0;
 }
